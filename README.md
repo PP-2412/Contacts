@@ -35,7 +35,7 @@ The app is deployed live at: https://contacts-sepia-seven.vercel.app/
 6. No third-party form or validation libraries used for demonstration purposes
 
 ## Future Improvements
-1.Backend integration for persistent contact storage (database)
+1. Backend integration for persistent contact storage (database)
 2. Unit and integration tests to ensure reliability
 3. Editable contacts to update existing entries
 4. Advanced international phone validation using libraries such as libphonenumber-js
