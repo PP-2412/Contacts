@@ -1,13 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Search, UserPlus, Users, X, Phone, User, Trash2, ChevronDown } from 'lucide-react';
 
-const INITIAL_CONTACTS = [
-  { id: 1, name: 'Alice Johnson', phone: '+1 (555) 123-4567', email: 'alice@example.com', avatar: 'AJ' },
-  { id: 2, name: 'Bob Smith', phone: '+1 (555) 234-5678', email: 'bob@example.com', avatar: 'BS' },
-  { id: 3, name: 'Charlie Davis', phone: '+44 20 7123 4567', email: 'charlie@example.com', avatar: 'CD' },
-  { id: 4, name: 'Diana Prince', phone: '+1 (555) 345-6789', email: 'diana@example.com', avatar: 'DP' },
-  { id: 5, name: 'Ethan Hunt', phone: '+1 (555) 456-7890', email: 'ethan@example.com', avatar: 'EH' },
-];
+const INITIAL_CONTACTS = [];
 
 const COUNTRY_CODES = [
   { code: '+1', country: 'US/CA', flag: '🇺🇸' },
