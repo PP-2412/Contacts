@@ -72,7 +72,7 @@ function SearchBar({ value, onChange, totalCount }) {
         <input
           type="text"
           className="search-input"
-          placeholder="Search by name or phone number..."
+          placeholder="Search by name, phone number of e-mail address"
           value={value}
           onChange={(e) => onChange(e.target.value)}
           aria-label="Search contacts"
